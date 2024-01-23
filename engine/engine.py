@@ -1,5 +1,5 @@
 from abc import ABC
 
-def Engine(ABC):
+class Engine(ABC):
     def needs_service(self):
         pass
